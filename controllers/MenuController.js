@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 
 module.exports = class MenuController {
-  contructor(){
+  constructor(){
     this.mainMenuQuestions = [
       {
         type: 'list',
